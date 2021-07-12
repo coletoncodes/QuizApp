@@ -1,4 +1,4 @@
-#Sun Jul 11 11:16:08 CDT 2021
+#Sun Jul 11 20:44:59 CDT 2021
 base.0=/home/coleton/Projects/Flutter-Quiz-App/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
