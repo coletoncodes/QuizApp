@@ -1,11 +1,11 @@
 class Question {
-  late final String questionText;
-  late final bool questionAnswer;
+  late final String q;
+  late final bool a;
 
-  Question({required String q, required bool a}) {
-    questionText = q;
-    questionAnswer = a;
-  }
+  // q: Question for quiz
+  // a: Answer for that question
+
+  Question({required this.q, required this.a});
 }
 
 // This class should store the question's and answer's of our quiz.
@@ -50,10 +50,10 @@ class QuizBrain {
   }
 
   String getQuestion() {
-    return _listOfQuestions[_questionNumber].questionText;
+    return _listOfQuestions[_questionNumber].q;
   }
 
   bool getAnswer() {
-    return _listOfQuestions[_questionNumber].questionAnswer;
+    return _listOfQuestions[_questionNumber].a;
   }
 }
