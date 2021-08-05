@@ -4,9 +4,9 @@ import 'quiz_brain.dart';
 
 QuizBrain quizBrain = QuizBrain();
 
-void main() => runApp(Quizzler());
+void main() => runApp(QuizApp());
 
-class Quizzler extends StatelessWidget {
+class QuizApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -35,7 +35,7 @@ class _QuizPageState extends State<QuizPage> {
     bool correctAnswer = quizBrain.getCorrectAnswer();
 
     setState(() {
-     if (quizBrain.isFinished() == true) {
+      if (quizBrain.isFinished() == true) {
         Alert(
           context: context,
           title: 'Finished!',
@@ -44,11 +44,8 @@ class _QuizPageState extends State<QuizPage> {
 
         quizBrain.reset();
 
-        
         scoreKeeper = [];
-      }
-
-      else {
+      } else {
         if (userPickedAnswer == correctAnswer) {
           scoreKeeper.add(Icon(
             Icons.check,
@@ -90,9 +87,10 @@ class _QuizPageState extends State<QuizPage> {
         Expanded(
           child: Padding(
             padding: EdgeInsets.all(15.0),
-            child: TextButton(style: TextButton.styleFrom(
-              backgroundColor: Colors.green,
-            ),
+            child: TextButton(
+              style: TextButton.styleFrom(
+                backgroundColor: Colors.green,
+              ),
               child: Text(
                 'True',
                 style: TextStyle(
@@ -135,9 +133,3 @@ class _QuizPageState extends State<QuizPage> {
     );
   }
 }
-
-/*
-question1: 'You can lead a cow down stairs but not up stairs.', false,
-question2: 'Approximately one quarter of human bones are in the feet.', true,
-question3: 'A slug\'s blood is green.', true,
-*/
