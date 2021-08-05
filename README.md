@@ -1,16 +1,32 @@
-# app
 
-A new Flutter project.
+# What It Does
 
-## Getting Started
+This is just a simple & fun quiz application that asks silly questions.
 
-This project is a starting point for a Flutter application.
+**You can preview the app [here](https://coletoncodes-flutter-quiz-app.web.app/).**
 
-A few resources to get you started if this is your first Flutter project:
+ This will open up a browser version of the application.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# What I Learned
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project taught me the how Dart language handles basic OOP concepts, like abstraction and inheritance. 
+
+**Some other skills I learned/used with this project:**
+- Modularising your code into separate classes.
+- Dart classes and objects.
+- Using class constructors.
+- Extracting Widgets to refactor your code.
+- private and public modifiers in Dart.
+- How to use Dart lists.
+- The difference between var, const and final.
+
+### Features & Ideas For The Future
+
+I would like to keep working on this idea and provide the user with their score, and the list of correct answers.
+
+# Contact Me
+
+* [Email](mailto:coletoncodes@gmail.com)
+* [LinkedIn](https://www.linkedin.com/in/coletongorecke/)
+* [Instagram](https://www.instagram.com/coletongorecke)
+* [Website](https://www.coletoncodes.com)

@@ -140,13 +140,13 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "app",
+      "name": "quiz_app",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-07-14T01:25:43.570448Z",
+  "generated": "2021-08-05T23:52:06.720248Z",
   "generator": "pub",
   "generatorVersion": "2.13.1"
 }
