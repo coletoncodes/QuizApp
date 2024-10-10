@@ -62,7 +62,7 @@ flutter run
 
 #### You should see this output in the console if successful
 ```bash
-bmi_calculator % flutter run                                                                                                                                                            (development)bmi_calculator
+quiz_app % flutter run                                                                                                                                                            (development)quiz_app
 Launching lib/main.dart on iPhone 16 Pro Max in debug mode...
 Running Xcode build...                                                  
  └─Compiling, linking and signing...                         3.3s
