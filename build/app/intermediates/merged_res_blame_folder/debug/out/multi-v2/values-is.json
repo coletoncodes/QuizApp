@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "/home/coleton/Projects/Flutter-Quiz-App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml",
+            "outputFile": "com.example.quiz_app-mergeDebugResources-24:/values-is/values-is.xml",
             "map": [
                 {
-                    "source": "/home/coleton/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/values-is/values-is.xml",
+                    "source": "/Users/coletongorecke/.gradle/caches/transforms-3/28ee8a5ebc96d117de5598ee6fce01ba/transformed/core-1.13.1/res/values-is/values-is.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,257,354,454,557,661,772",
+                        "endColumns": "94,106,96,99,102,103,110,100",
+                        "endOffsets": "145,252,349,449,552,656,767,868"
                     }
                 }
             ]
